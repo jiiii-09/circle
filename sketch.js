@@ -11,7 +11,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
 
   // 화면전체 배경색
-  background(255, 253, 240); 
+  background(0, 0, 0); 
 
   mic = new p5.AudioIn();
   mic.start(onMicStart, onMicError);
